@@ -2,6 +2,11 @@
 
 Retrieve a list of all user credentials via SQL Injection.
 
+## Reference
+
+- https://github.com/payloadbox/sql-injection-payload-list
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
+
 ## Steps
 
 Karena diminta untuk mendapatkan list user maka yang tergambar adalah variabel seperti id, email, password. Kita bisa memanfaat payload yang sebelumnya pernah digunakan di DB Schema. Hanya perlu ditambahkan beberapa payload untuk menyesuaikan.

@@ -2,6 +2,11 @@
 
 Exfiltrate the entire DB schema definition via SQL Injection.
 
+## Reference
+
+- https://github.com/payloadbox/sql-injection-payload-list
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
+
 ## Steps
 
 1. periksa fitur pencarian produk. Namun, URL di browser `#/search?q=...` ternyata tidak benar-benar mengirimkan request ke backend. Setelah itu, saya menganalisis request yang dilakukan aplikasi dan menemukan endpoint backend sebenarnya yaitu `/rest/products/search?q=`, yang digunakan untuk mengambil data produk. Dari sini, terlihat jelas bahwa parameter q dapat di inject untuk melakukan SQL Injection.

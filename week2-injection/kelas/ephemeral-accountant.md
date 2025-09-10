@@ -1,6 +1,11 @@
 # Ephemeral Accountant
 
-Log in with the (non-existing) accountant acc0unt4nt@juice-sh.op without ever registering that user.
+Log in with the (non-existing) accountant `acc0unt4nt@juice-sh.op` without ever registering that user.
+
+## Reference
+
+- https://github.com/payloadbox/sql-injection-payload-list
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection
 
 ## Steps
 
